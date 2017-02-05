@@ -1,0 +1,21 @@
+# Site settings
+title: MSW to Web Dev
+header-img: img/home-bg.png
+email: nicolasqueen@gmail.com
+copyright_name: nicolasqueen
+description: > # this means to ignore newlines until "baseurl:"
+  Journey of a social worker changing careers to web development
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  nicolasqueen
+learn_profile: nicolasqueen
+email_username: nicolasqueen@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
